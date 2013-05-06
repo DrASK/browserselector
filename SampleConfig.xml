@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<BrowserSelector>
+  <Rules>
+    <Rule Url="microsoft.com" Browser="IE" />
+    <Rule Url="msdn.com" Browser="IE" />
+    <Rule Url="msn.com" Browser="IE" />
+    <Rule Url="live.com" Browser="IE" />
+    <Rule Url="live.com" Browser="IE" />
+    <Rule Url="http://live.com" Browser="IE" MapsTo="https://live.com" />
+  </Rules>
+  <Browsers>
+    <Browser Name="Opera" Path="C:\Program Files (x86)\Opera\opera.exe" Default="true" />
+    <Browser Name="IE" Path="C:\Program Files (x86)\Internet Explorer\iexplore.exe" />
+  </Browsers>
+</BrowserSelector>
