@@ -9,7 +9,7 @@
     <Rule Url="http://live.com" Browser="IE" MapsTo="https://live.com" />
   </Rules>
   <Browsers>
-    <Browser Name="Opera" Path="C:\Program Files (x86)\Opera\opera.exe" Default="true" />
-    <Browser Name="IE" Path="C:\Program Files (x86)\Internet Explorer\iexplore.exe" />
+    <Browser Name="IE" Path="C:\Program Files (x86)\Internet Explorer\iexplore.exe" Default="true"/>
+    <Browser Name="Opera" Path="C:\Program Files (x86)\Opera\opera.exe" />
   </Browsers>
 </BrowserSelector>
