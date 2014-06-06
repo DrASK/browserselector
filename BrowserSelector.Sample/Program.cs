@@ -8,12 +8,10 @@ namespace BrowserSelector
 {
     static class Program
     {
-        
         [STAThread]
         static void Main(string[] args)
         {
-           // registers browser selector as default
-            
+            // registers browser selector as default            
             var installer = new InstallAction();
             var context = new InstallContext();
             context.Parameters.Add(InstallAction.ASSEMBLYPATH, typeof(InstallAction).Assembly.Location);

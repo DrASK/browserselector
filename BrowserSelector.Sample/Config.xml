@@ -7,6 +7,7 @@
     <Rule Url="live.com" Browser="IE" />
     <Rule Url="live.com" Browser="IE" />
     <Rule Url="http://live.com" Browser="IE" MapsTo="https://live.com" />
+    <Rule Url="http://opera.com" Browser="Opera" />
   </Rules>
   <Browsers>
     <Browser Name="IE" Path="C:\Program Files (x86)\Internet Explorer\iexplore.exe" Default="true"/>

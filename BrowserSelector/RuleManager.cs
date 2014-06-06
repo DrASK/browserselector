@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Xml;
 using System.Text.RegularExpressions;
-using System.IO;
 
 namespace BrowserSelector
 {
     internal class RuleManager
     {
         private XmlDocument _settings;
+
         public RuleManager(XmlDocument settings)
         {
             _settings = settings;
@@ -22,8 +20,6 @@ namespace BrowserSelector
 
             try
             {
-                
-
                 var ruleNodes = _settings.DocumentElement.SelectNodes("//Rules/Rule");
 
                 var browserRule = (from XmlNode n in _settings.DocumentElement.SelectNodes("//Rules/Rule")
@@ -58,7 +54,10 @@ namespace BrowserSelector
 
                 return executable;
             }
-            catch { return null; }
+            catch
+            {
+                return null;
+            }
         }
     }
 }
